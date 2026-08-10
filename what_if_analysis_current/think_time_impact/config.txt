@@ -1,0 +1,21 @@
+# Simulation Configuration for Think Time Impact Analysis
+# Hardware
+cores=1
+threads_per_core=1
+
+# Timings (in seconds)
+ctx_overhead=0.0012
+sim_time=1000.0
+warmup=100.0
+mean_think=10.0
+mean_service=0.048
+timeout=100.0
+
+# Experiment Setup
+num_runs=5
+service_distribution=EXPONENTIAL
+think_distribution=EXPONENTIAL
+
+# User counts (will be overridden by script)
+user_counts=10,25,50,75,100,125,150,175,200,250,300
+output_dir=results/think_10.0

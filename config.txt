@@ -1,0 +1,22 @@
+# Simulation Configuration
+# Hardware
+cores=1
+threads_per_core=1
+
+# Timings (in seconds)
+ctx_overhead=0.0012
+sim_time=1000.0
+warmup=100.0
+mean_think=7.152
+mean_service=0.048
+timeout=10.0
+
+# Experiment Setup
+num_runs=10
+service_distribution=EXPONENTIAL
+think_distribution=EXPONENTIAL
+# distributions can be CONSTANT, UNIFORM, or EXPONENTIAL
+
+# User counts for experiments
+user_counts=10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230
+throttle_factor=1.0

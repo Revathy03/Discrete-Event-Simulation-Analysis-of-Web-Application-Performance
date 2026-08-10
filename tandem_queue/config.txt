@@ -1,0 +1,22 @@
+# Simulation Configuration for Tandem Queue
+# Hardware
+cores=1
+threads_per_core=1
+
+# Timings (in seconds)
+ctx_overhead=0.0
+sim_time=1000.0
+warmup=100.0
+mean_think=100.0
+mean_service_0=0.05
+mean_service_1=0.05
+timeout=100.0
+
+# Experiment Setup
+num_runs=5
+service_distribution=EXPONENTIAL
+think_distribution=EXPONENTIAL
+
+# User counts for experiments
+# With Z=100, lambda approx N/100
+user_counts=100,200,400,600,800,1000,1200,1400,1600,1800,1900
