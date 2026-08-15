@@ -1,0 +1,7 @@
+label,ctx_overhead_s,overhead_pct_of_service,peak_goodput_reqps,goodput_vs_baseline_%,saturation_users,peak_utilization
+baseline_0.0012s,0.0012,2.5%,20.3452,100.0,150,1.0
+low_0.005s,0.005,10.4%,18.8222,92.5,150,1.0
+medium_0.01s,0.01,20.8%,17.2356,84.7,120,1.0
+high_0.02s,0.02,41.7%,14.699,72.2,100,1.0
+critical_0.05s,0.05,104.2%,10.2352,50.3,80,1.0
+severe_0.10s,0.1,208.3%,6.7609,33.2,50,1.0

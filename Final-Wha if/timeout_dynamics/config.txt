@@ -1,0 +1,23 @@
+# Simulation Configuration for Buffer Capacity Paradox
+# Hardware
+cores=1
+threads_per_core=1
+
+# Timings (in seconds)
+ctx_overhead=0.01
+sim_time=1000.0
+warmup=100.0
+mean_think=7.152
+mean_service=0.048
+timeout=0.5
+time_slice=1.0
+
+# Experiment Setup
+num_runs=10
+service_distribution=EXPONENTIAL
+think_distribution=EXPONENTIAL
+
+# User counts (High load to stress the buffer)
+user_counts=400
+max_queue_size=-1
+output_dir=results/users_400
